@@ -1,0 +1,77 @@
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+    background-color: #ad171c!important;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    opacity: 0.8;
+}
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #ad171c!important;
+  }
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+.container {
+    padding: 60px 16px 16px 16px;
+}
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+.loader {
+    border: 16px solid #f3f3f3; 
+    border-top: 16px solid #ad171c!important; 
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin: 80px 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+}
+.loading {
+    margin: 80px 0 0 0;
+}
+.d {
+    margin: 0 5px 0 5px;
+    font-size: .9rem;
+    color: #ad171c!important;
+}
+.w {
+    text-align: center;
+    height: 65vh;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+@media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }

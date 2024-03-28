@@ -1,0 +1,130 @@
+.bg-custom {
+    /* background-color: #901317!important; */
+    background-color: #ad171c!important;
+}
+.text-color {
+    margin-left: 10px;
+    color: #fff;
+}
+.iconheader {
+    margin-right: 5px;
+    font-size: 1.5rem;
+}
+.main {
+    display: flex;
+    height: 75vh;
+    background-color: #ebe9e9;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.content {
+    width: 80%;
+    border-radius: 5px;
+    background-color: #fff;
+    border: solid 1px #c8c3c3;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+.login {
+    width: 20%;
+    margin-left: 20px;
+    border: solid 1px #c8c3c3;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.footer {
+    height: 20vh;
+}
+.img-custom {
+    object-fit: contain;
+}
+.r {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.menu {
+    position: absolute;
+    background-color: brown;
+    color: #fff;
+    width: 200px;
+    height: 150px;
+    right: 10px;
+    top: 70px;
+    border: solid 1px #ebe9e9;
+    border-radius: 10px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 10px; 
+}
+.item {
+    margin: 2px 0 2px 120px;
+    width: 100%;
+    font-size: 1rem;
+    color: #fff;
+}
+.btnnone {
+    background-color: #fff;
+    color: #ad171c;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 15px;
+}
+.qq {
+    font-weight: bold;
+    margin-left: 5px;
+}
+.titlehd {
+    display: flex;
+    justify-content: space-between;
+}
+.search {
+    display: flex;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.qrnone {
+    font-size: 1.8rem;
+    color: #fff;
+}
+.qr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qrcode {
+    margin-top: 20px;
+    width: 40%;
+}
+/* responsive
+/* Mobile: width < 740px = 46.1875em */
+@media (max-width: 46.1875em) {
+    .login {
+        display: none;
+    }
+    .content {
+        width: 100vw;
+        margin-left: 0;
+    }
+    .ten{
+        font-size: 1rem;
+    }
+}
+/* Tablet: width >= 740px and width <1024px  */
+@media (min-width: 46.25em) and (max-width: 63.9375em){   
+    .login {
+        width: 35%;
+    }
+    .content {
+        width: 65%;
+    }
+}

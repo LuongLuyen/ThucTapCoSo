@@ -1,0 +1,29 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.td {
+    background-color: #ad171c!important;
+    color: #fff;
+}
+h4 {
+    color: #ad171c;
+    margin: 10px;
+}
+.fpoint {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #dddddd;
+    margin-top: 20px;
+}

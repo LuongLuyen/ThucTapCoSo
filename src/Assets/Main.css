@@ -1,0 +1,13 @@
+.main__content {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: brown;
+}
+.scroll {
+    overflow-y: scroll;
+}
