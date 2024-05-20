@@ -3,6 +3,7 @@ import { FaUser } from "react-icons/fa";
 import { PiExamFill } from "react-icons/pi";
 import { useState,useEffect } from "react";
 import { MdOutlineQrCodeScanner } from "react-icons/md";
+import { MdDelete } from "react-icons/md";
 
 function Header(props) {
   const [menus,setMenus] = useState(false)
@@ -91,6 +92,26 @@ const logOut = ()=>{
                 Xem điểm 
               </a>
             </li>
+            {password === "ADMIN"?
+            <>
+             <li className="nav-item">
+             <a className="nav-link text-color" href="/tao-tk">
+             <span className="iconheader">
+               <FaUser/>
+               </span>
+               Tạo tài khoản
+             </a>
+           </li>
+             <li className="nav-item">
+             <a className="nav-link text-color" href="/xoa-tk">
+             <span className="iconheader">
+               <MdDelete/>
+               </span>
+               Xóa tài khoản
+             </a>
+           </li>
+            </>
+            :<></>}
             </>
             :
             <></>

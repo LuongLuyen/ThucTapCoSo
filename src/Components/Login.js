@@ -70,10 +70,10 @@ function Login() {
         <>
         <div className="container">
           <label htmlFor="uname"><b>Tài khoản</b></label>
-          <input type="text" placeholder="Họ và tên: (Nguyễn Đức An)" onChange={(e)=>setUserName(e.target.value)}/>
+          <input type="text" placeholder="Họ và tên: (ADMIN 1)" onChange={(e)=>setUserName(e.target.value)}/>
   
           <label htmlFor="psw"><b>Mật khẩu</b></label>
-          <input type="password" placeholder="Mã sinh viên:(B21DCCN001)" onChange={(e)=>setPassword(e.target.value)}/>
+          <input type="password" placeholder="Mã sinh viên:(ADMIN)" onChange={(e)=>setPassword(e.target.value)}/>
   
           <button onClick={Authentication}>Đăng nhập</button>
           <label>
